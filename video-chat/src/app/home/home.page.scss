@@ -1,0 +1,14 @@
+
+body.video-session-in-progress .page.page-current,
+body.video-session-in-progress,
+body.video-session-in-progress .OT_root,
+body.video-session-in-progress #app {
+  background: transparent !important;
+  height: 50%;
+  float: left;
+}
+
+.OT_root video,
+body.video-session-in-progress .page.page-previous {
+  display: none;
+}
