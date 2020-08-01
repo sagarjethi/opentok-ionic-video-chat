@@ -309,10 +309,17 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@ionic-native/android-permissions@^5.17.0":
-  version "5.23.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/android-permissions/-/android-permissions-5.23.0.tgz#13c3ad91dc3fa6d093f89b604e477ca5e4e230f1"
-  integrity sha512-d6bOA3Jo4ObxxaSUd+lfamP2a3UiAAmWzAjtT9OpB1KRN/aSw+54TfVgWTQ7J6W2s0XwzhbwTRQXidb1zCGY/A==
+"@ionic-native/android-permissions@^5.23.0":
+  version "5.27.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/android-permissions/-/android-permissions-5.27.0.tgz#2e967b9b9ea0c3222b4e6b8ba1fe5eccac786767"
+  integrity sha512-q1w6XonHqVjzhFBe19/XbgDJuS4+MJsN0DK0/id0SZbg5WB5A9E9v0Tybx8lJtwW9owh/2RnDImjmYeKgAPVpw==
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/camera@^5.23.0":
+  version "5.27.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/camera/-/camera-5.27.0.tgz#0c3d610794b52b26554179ddf142788997b15644"
+  integrity sha512-LcRlnDRnMHa+w5u2jpZIdXW6OcYyNz+CZL/G9idj9sdhCObAnqgm4eeutpBKulWQ9Ioh4548uPrxrOX7KYV0Fw==
   dependencies:
     "@types/cordova" latest
 
@@ -405,10 +412,10 @@
   resolved "https://registry.yarnpkg.com/@opentok/client/-/client-2.15.5.tgz#077eff3fe19d705f60a8f2a1e1c9428dd7b29ce7"
   integrity sha512-8OtFHQxvgF6rr+XxQ187M3rpKLFW7rJASVQzvtTOB8Uv9keh01ZLWO5q9wDO6yiBhOoCuHWlhwvuRF6/B/PWUQ==
 
-"@opentok/client@^2.16.3":
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/@opentok/client/-/client-2.17.0.tgz#c81d7510c1e4bec0ad6825c1155f2aa1bab1451b"
-  integrity sha512-2UowZ5rKTPDtgZ5Ew32oYEuJEFkjNvLfxOejuUAfDDeT69GllF9NSKuG9+HoXwoOztYeFUwaWkKTFJEfGk6boQ==
+"@opentok/client@^2.17.0":
+  version "2.17.7"
+  resolved "https://registry.yarnpkg.com/@opentok/client/-/client-2.17.7.tgz#a3521367529913de6a5253a01203c4b397c6be80"
+  integrity sha512-VEkKUlkG14BUXSIhVouVRX8HeUhOLIaZNH0KS6WVjB5QjWpPGKO73HiwgsRloqRB2AXcDW2M/uuzRJbHiwsj+w==
 
 "@schematics/angular@8.1.3":
   version "8.1.3"
@@ -1299,9 +1306,9 @@ bluebird@^3.3.0, bluebird@^3.5.1, bluebird@^3.5.3, bluebird@^3.5.5:
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
 
 bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.4.0:
-  version "4.11.8"
-  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
-  integrity sha512-ItfYfPLkWHUjckQCk8xC+LwxgK8NYcXywGigJgSwOP8Y2iyWT4f2vsZnoOXTTbo+o5yXmIUJ4gn5538SO5S3gA==
+  version "4.11.9"
+  resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.9.tgz#26d556829458f9d1e81fc48952493d0ba3507828"
+  integrity sha512-E6QoYqCKZfgatHTdHzs1RRKP7ip4vvm+EyRUeE2RF0NblwVvb0p6jSVeNTOFxPn26QXN2o6SMfNxKp6kU8zQaw==
 
 body-parser@1.19.0, body-parser@^1.16.1:
   version "1.19.0"
@@ -2164,6 +2171,11 @@ cordova-plugin-device@^2.0.2:
   resolved "https://registry.yarnpkg.com/cordova-plugin-device/-/cordova-plugin-device-2.0.3.tgz#c2b41b7efd0455dd097f89356d85bfdd5dadeb0f"
   integrity sha512-Jb3V72btxf3XHpkPQsGdyc8N6tVBYn1vsxSFj43fIz9vonJDUThYPCJJHqk6PX6N4dJw6I4FjxkpfCR4LDYMlw==
 
+cordova-plugin-file@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-file/-/cordova-plugin-file-6.0.2.tgz#f3911479f8357e9aacb5576674f8d95b31a1fb20"
+  integrity sha512-m7cughw327CjONN/qjzsTpSesLaeybksQh420/gRuSXJX5Zt9NfgsSbqqKDon6jnQ9Mm7h7imgyO2uJ34XMBtA==
+
 cordova-plugin-ionic-keyboard@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/cordova-plugin-ionic-keyboard/-/cordova-plugin-ionic-keyboard-2.2.0.tgz#53ba9ccd5e765165446a094cfe042a2ddd87d81d"
@@ -2173,6 +2185,11 @@ cordova-plugin-ionic-webview@^4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/cordova-plugin-ionic-webview/-/cordova-plugin-ionic-webview-4.1.3.tgz#7f3963208708951fedd975c0808a5d27382812a7"
   integrity sha512-hlrUF0kLjjEkZmpYlLJO0NnXmVjMmQ3MOZVXm1ytDihLPKHklYCOpCvjA5Wz3hJrPD1shFEsqi/SPnp873AsdQ==
+
+cordova-plugin-media-capture@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-media-capture/-/cordova-plugin-media-capture-3.0.3.tgz#9e04494245ad620f27fef49850fce2bfb342426e"
+  integrity sha512-pVQOrNM7VAuVUMXibAlMGIArrftHPrRs4dUCoE+e2HEFUp3LmN3Yj539LjdUxcWmz/A/cHC65m9E3DS56YJhcg==
 
 cordova-plugin-network-information@^2.0.2:
   version "2.0.2"
@@ -2769,9 +2786,9 @@ elementtree@0.1.7, elementtree@^0.1.7:
     sax "1.1.4"
 
 elliptic@^6.0.0:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.2.tgz#05c5678d7173c049d8ca433552224a495d0e3762"
-  integrity sha512-f4x70okzZbIQl/NSRLkI/+tteV/9WqL98zx+SQ69KbXxmVrmjwsNUPn/gYJJ0sHvEak24cZgHIPegRePAtA/xw==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/elliptic/-/elliptic-6.5.3.tgz#cb59eb2efdaf73a0bd78ccd7015a62ad6e0f93d6"
+  integrity sha512-IMqzv5wNQf+E6aHeIqATs0tOLeOTwj1QKbRcS3jBbYkl5oLAserA8yJTT7/VyHUYG91PRmPyeQDObKLPpeS4dw==
   dependencies:
     bn.js "^4.4.0"
     brorand "^1.0.1"
@@ -5335,22 +5352,6 @@ node-libs-browser@^2.0.0:
     util "^0.11.0"
     vm-browserify "^1.0.1"
 
-node-pre-gyp@*:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.14.0.tgz#9a0596533b877289bcad4e143982ca3d904ddc83"
-  integrity sha512-+CvDC7ZttU/sSt9rFjix/P05iS43qHCOOGzcr3Ry99bXG7VX953+vFyEuph/tfqoYu8dttBkE86JSKBO2OzcxA==
-  dependencies:
-    detect-libc "^1.0.2"
-    mkdirp "^0.5.1"
-    needle "^2.2.1"
-    nopt "^4.0.1"
-    npm-packlist "^1.1.6"
-    npmlog "^4.0.2"
-    rc "^1.2.7"
-    rimraf "^2.6.1"
-    semver "^5.3.0"
-    tar "^4.4.2"
-
 node-pre-gyp@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.11.0.tgz#db1f33215272f692cd38f03238e3e9b47c5dd054"
@@ -7596,7 +7597,7 @@ tar@^2.0.0:
     fstream "^1.0.12"
     inherits "2"
 
-tar@^4, tar@^4.4.2, tar@^4.4.8:
+tar@^4, tar@^4.4.8:
   version "4.4.13"
   resolved "https://registry.yarnpkg.com/tar/-/tar-4.4.13.tgz#43b364bc52888d555298637b10d60790254ab525"
   integrity sha512-w2VwSrBoHa5BsSyH+KxEqeQBAllHhccyMFVHtGtdMpF4W7IRWfZjFiQceJPChOeTsSDVUpER2T8FA93pr0L+QA==
