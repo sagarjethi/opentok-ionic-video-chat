@@ -309,10 +309,17 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@ionic-native/android-permissions@^5.17.0":
-  version "5.23.0"
-  resolved "https://registry.yarnpkg.com/@ionic-native/android-permissions/-/android-permissions-5.23.0.tgz#13c3ad91dc3fa6d093f89b604e477ca5e4e230f1"
-  integrity sha512-d6bOA3Jo4ObxxaSUd+lfamP2a3UiAAmWzAjtT9OpB1KRN/aSw+54TfVgWTQ7J6W2s0XwzhbwTRQXidb1zCGY/A==
+"@ionic-native/android-permissions@^5.23.0":
+  version "5.28.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/android-permissions/-/android-permissions-5.28.0.tgz#9811799d9db243d33d338a83fd637184bc0b4b25"
+  integrity sha512-RHlRjITDfv024m+4tsp3We5ZbEjWwbobx0LD+TDd1AVk5w3mH+YHqid3ak+WOdAtf3rNr7l89Y90o7qzBrlVKQ==
+  dependencies:
+    "@types/cordova" latest
+
+"@ionic-native/camera@^5.23.0":
+  version "5.28.0"
+  resolved "https://registry.yarnpkg.com/@ionic-native/camera/-/camera-5.28.0.tgz#423af067ad0563d79ff8cf19c2a9cd535a61ca47"
+  integrity sha512-bJV1lXuN8XxRRY6d1q8/i0aSBFohtKvZzQKD7m+sY5SIDnqXrB4NH9ci2Ghl0L/nvK+Zmwrrw69qQ0NEK2233g==
   dependencies:
     "@types/cordova" latest
 
@@ -405,10 +412,10 @@
   resolved "https://registry.yarnpkg.com/@opentok/client/-/client-2.15.5.tgz#077eff3fe19d705f60a8f2a1e1c9428dd7b29ce7"
   integrity sha512-8OtFHQxvgF6rr+XxQ187M3rpKLFW7rJASVQzvtTOB8Uv9keh01ZLWO5q9wDO6yiBhOoCuHWlhwvuRF6/B/PWUQ==
 
-"@opentok/client@^2.16.3":
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/@opentok/client/-/client-2.17.0.tgz#c81d7510c1e4bec0ad6825c1155f2aa1bab1451b"
-  integrity sha512-2UowZ5rKTPDtgZ5Ew32oYEuJEFkjNvLfxOejuUAfDDeT69GllF9NSKuG9+HoXwoOztYeFUwaWkKTFJEfGk6boQ==
+"@opentok/client@^2.17.0":
+  version "2.18.0"
+  resolved "https://registry.yarnpkg.com/@opentok/client/-/client-2.18.0.tgz#464ad717fb9625af8b69ddb304cb21f8b1c431ca"
+  integrity sha512-P/r6XBmeF5c/f07wuNc84edbapI2bH/xtHkmIsJhgnQ/7sknG/BTA2BoXyzq5zreV29mGt3Net7tiIr+B//DyA==
 
 "@schematics/angular@8.1.3":
   version "8.1.3"
@@ -2164,6 +2171,11 @@ cordova-plugin-device@^2.0.2:
   resolved "https://registry.yarnpkg.com/cordova-plugin-device/-/cordova-plugin-device-2.0.3.tgz#c2b41b7efd0455dd097f89356d85bfdd5dadeb0f"
   integrity sha512-Jb3V72btxf3XHpkPQsGdyc8N6tVBYn1vsxSFj43fIz9vonJDUThYPCJJHqk6PX6N4dJw6I4FjxkpfCR4LDYMlw==
 
+cordova-plugin-file@^6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-file/-/cordova-plugin-file-6.0.2.tgz#f3911479f8357e9aacb5576674f8d95b31a1fb20"
+  integrity sha512-m7cughw327CjONN/qjzsTpSesLaeybksQh420/gRuSXJX5Zt9NfgsSbqqKDon6jnQ9Mm7h7imgyO2uJ34XMBtA==
+
 cordova-plugin-ionic-keyboard@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/cordova-plugin-ionic-keyboard/-/cordova-plugin-ionic-keyboard-2.2.0.tgz#53ba9ccd5e765165446a094cfe042a2ddd87d81d"
@@ -2173,6 +2185,11 @@ cordova-plugin-ionic-webview@^4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/cordova-plugin-ionic-webview/-/cordova-plugin-ionic-webview-4.1.3.tgz#7f3963208708951fedd975c0808a5d27382812a7"
   integrity sha512-hlrUF0kLjjEkZmpYlLJO0NnXmVjMmQ3MOZVXm1ytDihLPKHklYCOpCvjA5Wz3hJrPD1shFEsqi/SPnp873AsdQ==
+
+cordova-plugin-media-capture@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/cordova-plugin-media-capture/-/cordova-plugin-media-capture-3.0.3.tgz#9e04494245ad620f27fef49850fce2bfb342426e"
+  integrity sha512-pVQOrNM7VAuVUMXibAlMGIArrftHPrRs4dUCoE+e2HEFUp3LmN3Yj539LjdUxcWmz/A/cHC65m9E3DS56YJhcg==
 
 cordova-plugin-network-information@^2.0.2:
   version "2.0.2"
@@ -3012,9 +3029,9 @@ etag@~1.8.1:
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
 eventemitter3@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
-  integrity sha512-qerSRB0p+UDEssxTtm6EDKcE7W4OaoisfIMl4CngyEhjpYglocpNg6UEqCvemdGhosAsg4sO2dXJOdyBifPGCg==
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 events@^3.0.0:
   version "3.1.0"
@@ -3328,11 +3345,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.11.0.tgz#afa14f08ba12a52963140fe43212658897bc0ecb"
-  integrity sha512-KZm0V+ll8PfBrKwMzdo5D13b1bur9Iq9Zd/RMmAoQQcl2PxxFml8cxXPaaPYVbV0RjNjq1CU7zIzAOqtUPudmA==
-  dependencies:
-    debug "^3.0.0"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 for-in@^0.1.3:
   version "0.1.8"
@@ -3861,9 +3876,9 @@ http-proxy-middleware@^0.19.1:
     micromatch "^3.1.10"
 
 http-proxy@^1.13.0, http-proxy@^1.17.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.0.tgz#dbe55f63e75a347db7f3d99974f2692a314a6a3a"
-  integrity sha512-84I2iJM/n1d4Hdgc6y2+qY5mDaz2PUVjlg9znE9byl+q0uC3DeByqBGReQu5tpLK0TAqTIXScRUV+dg7+bUPpQ==
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
+  integrity sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==
   dependencies:
     eventemitter3 "^4.0.0"
     follow-redirects "^1.0.0"
@@ -5334,22 +5349,6 @@ node-libs-browser@^2.0.0:
     url "^0.11.0"
     util "^0.11.0"
     vm-browserify "^1.0.1"
-
-node-pre-gyp@*:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.14.0.tgz#9a0596533b877289bcad4e143982ca3d904ddc83"
-  integrity sha512-+CvDC7ZttU/sSt9rFjix/P05iS43qHCOOGzcr3Ry99bXG7VX953+vFyEuph/tfqoYu8dttBkE86JSKBO2OzcxA==
-  dependencies:
-    detect-libc "^1.0.2"
-    mkdirp "^0.5.1"
-    needle "^2.2.1"
-    nopt "^4.0.1"
-    npm-packlist "^1.1.6"
-    npmlog "^4.0.2"
-    rc "^1.2.7"
-    rimraf "^2.6.1"
-    semver "^5.3.0"
-    tar "^4.4.2"
 
 node-pre-gyp@^0.11.0:
   version "0.11.0"
@@ -7596,7 +7595,7 @@ tar@^2.0.0:
     fstream "^1.0.12"
     inherits "2"
 
-tar@^4, tar@^4.4.2, tar@^4.4.8:
+tar@^4, tar@^4.4.8:
   version "4.4.13"
   resolved "https://registry.yarnpkg.com/tar/-/tar-4.4.13.tgz#43b364bc52888d555298637b10d60790254ab525"
   integrity sha512-w2VwSrBoHa5BsSyH+KxEqeQBAllHhccyMFVHtGtdMpF4W7IRWfZjFiQceJPChOeTsSDVUpER2T8FA93pr0L+QA==
